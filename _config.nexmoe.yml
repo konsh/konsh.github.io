@@ -13,7 +13,7 @@ function: # 功能开关，可选值（true,false）
 # 附加图标库 用于自定义字体 www.iconfont.cn 登录->创建项目->添加图标->获取链接
 iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
 
-search: https://cn.bing.com/search?q=site:nexmoe.com # https://www.google.com/search?q={你的博客链接}
+search: https://cn.bing.com/search?q=site:konsh.github.io # https://www.google.com/search?q={你的博客链接}
 
 cdn: # 这里可以修改站点使用的库的CDN
   disqusjs: 
@@ -30,9 +30,9 @@ menu:
   回到首页: 
     - /
     - icon-home
-#  文章归档: 
-#    - /archives.html
-#    - icon-container
+  文章归档: 
+   - /archives.html
+   - icon-container
   关于博客:
     - /about.html
     - icon-info-circle
@@ -44,25 +44,25 @@ widgets:
 - social
 - category
 - tagcloud
-# - archive #settings: widgetAchive
+- archive #settings: widgetAchive
 # - recent_posts
 # - link #settings: widgetLink
 
 maxTagcloud: 0  # 0 表示不限制
 
 social:
-  QQ群: 
-    - https://jq.qq.com/?_wv=1027&k=5CfKHun
-    - icon-QQ
-    - rgb(249, 174, 8)
-    - rgba(249, 174, 8, .1)
-  哔哩哔哩:
-    - https://space.bilibili.com/20238211
-    - icon-bilibili
-    - rgb(231, 106, 141)
-    - rgba(231, 106, 141, .15)
+  # QQ群: 
+  #   - https://jq.qq.com/?_wv=1027&k=5CfKHun
+  #   - icon-QQ
+  #   - rgb(249, 174, 8)
+  #   - rgba(249, 174, 8, .1)
+  # 哔哩哔哩:
+  #   - https://space.bilibili.com/20238211
+  #   - icon-bilibili
+  #   - rgb(231, 106, 141)
+  #   - rgba(231, 106, 141, .15)
   GitHub:
-    - https://github.com/nexmoe/
+    - https://github.com/konsh/
     - icon-github
     - rgb(25, 23, 23)
     - rgba(25, 23, 23, .15)
