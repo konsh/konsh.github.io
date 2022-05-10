@@ -34,17 +34,54 @@
     </item>
     
     <item>
-      <title>AHUG74</title>
+      <title>Python连接Redis集群的方法</title>
       <link>https://konsh.github.io/AHUG74/</link>
       <guid>https://konsh.github.io/AHUG74/</guid>
       <pubDate>Sat, 07 May 2022 07:23:28 GMT</pubDate>
       
+      <description>Python连接Redis集群的方式</description>
       
       
       
+      
+      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93-Python/">数据库, Python</category>
+      
+      
+      <category domain="https://konsh.github.io/tags/Database/">Database</category>
+      
+      <category domain="https://konsh.github.io/tags/Redis/">Redis</category>
+      
+      <category domain="https://konsh.github.io/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</category>
+      
+      <category domain="https://konsh.github.io/tags/Python/">Python</category>
       
       
       <comments>https://konsh.github.io/AHUG74/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Redis的三种集群模式</title>
+      <link>https://konsh.github.io/ESFS7D/</link>
+      <guid>https://konsh.github.io/ESFS7D/</guid>
+      <pubDate>Fri, 25 Jun 2021 07:07:41 GMT</pubDate>
+      
+      <description>Redis的三种集群模式介绍</description>
+      
+      
+      
+      
+      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
+      
+      
+      <category domain="https://konsh.github.io/tags/Database/">Database</category>
+      
+      <category domain="https://konsh.github.io/tags/Redis/">Redis</category>
+      
+      <category domain="https://konsh.github.io/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</category>
+      
+      
+      <comments>https://konsh.github.io/ESFS7D/#disqus_thread</comments>
       
     </item>
     
@@ -68,36 +105,6 @@
       
       
       <comments>https://konsh.github.io/GY3HGT/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Fastapi学习日记（一）</title>
-      <link>https://konsh.github.io/ESFS7D/</link>
-      <guid>https://konsh.github.io/ESFS7D/</guid>
-      <pubDate>Thu, 24 Jun 2021 07:07:41 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;待完善&lt;/p&gt;
-</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://konsh.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/">后端开发</category>
-      
-      
-      <category domain="https://konsh.github.io/tags/python/">python</category>
-      
-      <category domain="https://konsh.github.io/tags/web/">web</category>
-      
-      
-      <comments>https://konsh.github.io/ESFS7D/#disqus_thread</comments>
       
     </item>
     
