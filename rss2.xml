@@ -15,18 +15,30 @@
     <atom:link href="https://konsh.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Sat, 07 May 2022 07:23:57 GMT</pubDate>
+    <pubDate>Wed, 11 May 2022 03:33:58 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>IBUER35</title>
+      <title>使用boto3向AWS S3上传文件</title>
       <link>https://konsh.github.io/IBUER35/</link>
       <guid>https://konsh.github.io/IBUER35/</guid>
       <pubDate>Sat, 07 May 2022 07:23:57 GMT</pubDate>
       
+      <description>使用AWS开发工具包boto3上传文件到S3上。</description>
       
       
       
+      
+      <category domain="https://konsh.github.io/categories/AWS/">AWS</category>
+      
+      <category domain="https://konsh.github.io/categories/AWS/Python/">Python</category>
+      
+      
+      <category domain="https://konsh.github.io/tags/Python/">Python</category>
+      
+      <category domain="https://konsh.github.io/tags/AWS/">AWS</category>
+      
+      <category domain="https://konsh.github.io/tags/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/">上传文件</category>
       
       
       <comments>https://konsh.github.io/IBUER35/#disqus_thread</comments>
@@ -44,7 +56,9 @@
       
       
       
-      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93-Python/">数据库, Python</category>
+      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
+      
+      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/Python/">Python</category>
       
       
       <category domain="https://konsh.github.io/tags/Database/">Database</category>

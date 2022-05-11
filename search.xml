@@ -4,13 +4,31 @@
   
     
     <entry>
-      <title>IBUER35</title>
+      <title>使用boto3向AWS S3上传文件</title>
       <link href="/IBUER35/"/>
       <url>/IBUER35/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Boto3是AWS官方提供的基于python3的开发工具包，Boto3 可以支持您轻松将 Python 应用程序、库或脚本与 AWS 服务进行集成，包括 Amazon S3、Amazon EC2 和 Amazon DynamoDB 等。</p><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">pip install boto3</span><br></pre></td></tr></table></figure><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> boto3.session <span class="keyword">import</span> Session</span><br><span class="line"></span><br><span class="line">session = Session(aws_access_key_id=you_id, aws_secret_access_key=you_key)</span><br><span class="line">s3_client = session.client(<span class="string">&#x27;s3&#x27;</span>)</span><br><span class="line">bucket_name = <span class="string">&#x27;you_bucket&#x27;</span></span><br></pre></td></tr></table></figure><h2 id="上传本地文件"><a href="#上传本地文件" class="headerlink" title="上传本地文件"></a>上传本地文件</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">file_path = <span class="string">&quot;本地文件地址&quot;</span></span><br><span class="line">fname = <span class="string">&quot;图片名称&quot;</span></span><br><span class="line">s3_client.upload_file(Filename=file_path, Bucket=bucket_name, key=fname)</span><br></pre></td></tr></table></figure><h2 id="上传二进制文件"><a href="#上传二进制文件" class="headerlink" title="上传二进制文件"></a>上传二进制文件</h2><p>在实际开发api接口实现文件上传功能时，无法使用上面的上传本地文件逻辑，原因是api接口中数据是以文件流的形式传递，所以需要采用二进制数据上传。以下是flask框架为例：<br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> request</span><br><span class="line"></span><br><span class="line">_file = request.files.get(<span class="string">&#x27;file&#x27;</span>)</span><br><span class="line">s3_client.upload_fileobj(Fileobj=_file.stream, Bucket=bucket_name, Key=fname)</span><br></pre></td></tr></table></figure></p>]]></content>
       
       
+      <categories>
+          
+          <category> AWS </category>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> AWS </tag>
+            
+            <tag> 上传文件 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -26,7 +44,9 @@
       
       <categories>
           
-          <category> 数据库, Python </category>
+          <category> 数据库 </category>
+          
+          <category> Python </category>
           
       </categories>
       
