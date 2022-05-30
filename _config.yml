@@ -4,16 +4,16 @@
 
 # Site
 title: Konsh
-subtitle: ""
-description: ""
-keywords:
+subtitle: "小钱同学的个人博客站点"
+description: "懒惰是第一生产力"
+keywords: "Python,Database,Golang"
 author: Konsh
 language: zh-CN
 timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://konsh.github.io/
+url: https://www.ikonsh.com/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -44,8 +44,8 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: false
-  line_number: true
+  enable: true
+  line_number: false
   auto_detect: false
   tab_replace: ""
   wrap: true
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 # Plugins: unpkg
 ## Themes: https://hexo.io/themes/
-theme: nexmoe
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -109,3 +109,31 @@ deploy:
 mathjax:
   enable: true
   per_page: true
+
+feed:
+  enable: true
+  type: rss2
+  path: rss2.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+sitemap:
+  path: sitemap.xml
+  template: 
+  template_txt:
+  rel: false
+  tags: true
+  categories: true
+
+nofollow:
+  enable: true
+  field: site # post -- 文章 / site -- 全站
+  exclude:
+
