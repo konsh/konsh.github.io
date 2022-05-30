@@ -4,24 +4,49 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Konsh</title>
-    <link>https://konsh.github.io/</link>
+    <link>https://www.ikonsh.com/</link>
     
     <image>
-      <url>https://konsh.github.io/icon.png</url>
+      <url>https://www.ikonsh.com/icon.png</url>
       <title>Konsh</title>
-      <link>https://konsh.github.io/</link>
+      <link>https://www.ikonsh.com/</link>
     </image>
     
-    <atom:link href="https://konsh.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://www.ikonsh.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Wed, 11 May 2022 03:33:58 GMT</pubDate>
+    <pubDate>Tue, 17 May 2022 03:01:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>Golang自动导包配置</title>
+      <link>https://www.ikonsh.com/SVW34F/</link>
+      <guid>https://www.ikonsh.com/SVW34F/</guid>
+      <pubDate>Wed, 11 May 2022 06:43:50 GMT</pubDate>
+      
+      <description>golang在IDE中自动导包配置</description>
+      
+      
+      
+      
+      <category domain="https://www.ikonsh.com/categories/Golang/">Golang</category>
+      
+      
+      <category domain="https://www.ikonsh.com/tags/vs-code/">vs code</category>
+      
+      <category domain="https://www.ikonsh.com/tags/Golang/">Golang</category>
+      
+      <category domain="https://www.ikonsh.com/tags/Goland/">Goland</category>
+      
+      
+      <comments>https://www.ikonsh.com/SVW34F/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>使用boto3向AWS S3上传文件</title>
-      <link>https://konsh.github.io/IBUER35/</link>
-      <guid>https://konsh.github.io/IBUER35/</guid>
+      <link>https://www.ikonsh.com/IBUER35/</link>
+      <guid>https://www.ikonsh.com/IBUER35/</guid>
       <pubDate>Sat, 07 May 2022 07:23:57 GMT</pubDate>
       
       <description>使用AWS开发工具包boto3上传文件到S3上。</description>
@@ -29,26 +54,24 @@
       
       
       
-      <category domain="https://konsh.github.io/categories/AWS/">AWS</category>
-      
-      <category domain="https://konsh.github.io/categories/AWS/Python/">Python</category>
+      <category domain="https://www.ikonsh.com/categories/Python/">Python</category>
       
       
-      <category domain="https://konsh.github.io/tags/Python/">Python</category>
+      <category domain="https://www.ikonsh.com/tags/Python/">Python</category>
       
-      <category domain="https://konsh.github.io/tags/AWS/">AWS</category>
+      <category domain="https://www.ikonsh.com/tags/AWS/">AWS</category>
       
-      <category domain="https://konsh.github.io/tags/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/">上传文件</category>
+      <category domain="https://www.ikonsh.com/tags/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/">上传文件</category>
       
       
-      <comments>https://konsh.github.io/IBUER35/#disqus_thread</comments>
+      <comments>https://www.ikonsh.com/IBUER35/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Python连接Redis集群的方法</title>
-      <link>https://konsh.github.io/AHUG74/</link>
-      <guid>https://konsh.github.io/AHUG74/</guid>
+      <link>https://www.ikonsh.com/AHUG74/</link>
+      <guid>https://www.ikonsh.com/AHUG74/</guid>
       <pubDate>Sat, 07 May 2022 07:23:28 GMT</pubDate>
       
       <description>Python连接Redis集群的方式</description>
@@ -56,28 +79,26 @@
       
       
       
-      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
-      
-      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/Python/">Python</category>
+      <category domain="https://www.ikonsh.com/categories/Python/">Python</category>
       
       
-      <category domain="https://konsh.github.io/tags/Database/">Database</category>
+      <category domain="https://www.ikonsh.com/tags/Databas/">Databas</category>
       
-      <category domain="https://konsh.github.io/tags/Redis/">Redis</category>
+      <category domain="https://www.ikonsh.com/tags/Redis/">Redis</category>
       
-      <category domain="https://konsh.github.io/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</category>
+      <category domain="https://www.ikonsh.com/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</category>
       
-      <category domain="https://konsh.github.io/tags/Python/">Python</category>
+      <category domain="https://www.ikonsh.com/tags/Python/">Python</category>
       
       
-      <comments>https://konsh.github.io/AHUG74/#disqus_thread</comments>
+      <comments>https://www.ikonsh.com/AHUG74/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Redis的三种集群模式</title>
-      <link>https://konsh.github.io/ESFS7D/</link>
-      <guid>https://konsh.github.io/ESFS7D/</guid>
+      <link>https://www.ikonsh.com/ESFS7D/</link>
+      <guid>https://www.ikonsh.com/ESFS7D/</guid>
       <pubDate>Fri, 25 Jun 2021 07:07:41 GMT</pubDate>
       
       <description>Redis的三种集群模式介绍</description>
@@ -85,24 +106,24 @@
       
       
       
-      <category domain="https://konsh.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
+      <category domain="https://www.ikonsh.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
       
       
-      <category domain="https://konsh.github.io/tags/Database/">Database</category>
+      <category domain="https://www.ikonsh.com/tags/Redis/">Redis</category>
       
-      <category domain="https://konsh.github.io/tags/Redis/">Redis</category>
+      <category domain="https://www.ikonsh.com/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</category>
       
-      <category domain="https://konsh.github.io/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</category>
+      <category domain="https://www.ikonsh.com/tags/Database/">Database</category>
       
       
-      <comments>https://konsh.github.io/ESFS7D/#disqus_thread</comments>
+      <comments>https://www.ikonsh.com/ESFS7D/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>hexo操作</title>
-      <link>https://konsh.github.io/GY3HGT/</link>
-      <guid>https://konsh.github.io/GY3HGT/</guid>
+      <link>https://www.ikonsh.com/GY3HGT/</link>
+      <guid>https://www.ikonsh.com/GY3HGT/</guid>
       <pubDate>Thu, 24 Jun 2021 08:04:49 GMT</pubDate>
       
       <description>常用hexo命令操作</description>
@@ -110,15 +131,15 @@
       
       
       
-      <category domain="https://konsh.github.io/categories/hexo/">hexo</category>
+      <category domain="https://www.ikonsh.com/categories/hexo/">hexo</category>
       
       
-      <category domain="https://konsh.github.io/tags/hexo/">hexo</category>
+      <category domain="https://www.ikonsh.com/tags/hexo/">hexo</category>
       
-      <category domain="https://konsh.github.io/tags/%E5%BB%BA%E7%AB%99/">建站</category>
+      <category domain="https://www.ikonsh.com/tags/%E5%BB%BA%E7%AB%99/">建站</category>
       
       
-      <comments>https://konsh.github.io/GY3HGT/#disqus_thread</comments>
+      <comments>https://www.ikonsh.com/GY3HGT/#disqus_thread</comments>
       
     </item>
     

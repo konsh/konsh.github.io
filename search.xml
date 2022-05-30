@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Golang自动导包配置</title>
+      <link href="/SVW34F/"/>
+      <url>/SVW34F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Go开发者所使用的IDE中无非vs code和Goland两种。近期有golang的开发需求，所以找了下关于golang的相关使用及配置。</p><p>以下仅限对代码编辑器的配置，golang的安装还有环境配置不在本次探讨中。</p><h1 id="vscode中配置golang"><a href="#vscode中配置golang" class="headerlink" title="vscode中配置golang"></a>vscode中配置golang</h1><p>vs code是一款由微软开发的跨平台的免费编辑器。该软件支持语法高亮、代码自动补全、代码重构功能，并且内置了命令行工具和Git版本控制系统。</p><h2 id="安装go插件和工具包"><a href="#安装go插件和工具包" class="headerlink" title="安装go插件和工具包"></a>安装go插件和工具包</h2><h3 id="扩展工具中安装GO插件"><a href="#扩展工具中安装GO插件" class="headerlink" title="扩展工具中安装GO插件"></a>扩展工具中安装GO插件</h3><p><img src="/img/vscode-go插件.png" alt="vscode安装Go插件"></p><h3 id="安装GO工具包"><a href="#安装GO工具包" class="headerlink" title="安装GO工具包"></a>安装GO工具包</h3><p>打开控制面板输入<code>go:install/update tools</code>，勾选全部插件进行安装。</p><blockquote><p>打开控制面板的方法</p><blockquote><ol><li><p>查看 - 命令面板</p></li><li><p>mac系统可使用快捷键command+shift+P</p></li><li><p>win系统可使用快捷键ctrl+shift+P</p></li></ol></blockquote></blockquote><p><img src="/img/vscode-go工具包安装1.png" alt="vscode-go工具包安装1"></p><p><img src="/img/vscode-go工具包安装2.png" alt="vscode-go工具包安装2"></p><h3 id="更新配置文件"><a href="#更新配置文件" class="headerlink" title="更新配置文件"></a>更新配置文件</h3><p>在 Preferences/首选项 -&gt; Setting/设置 然后输入 go，然后选择 setting.json，填入你想要修改的配置<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></p><h1 id="Goland中配置golang"><a href="#Goland中配置golang" class="headerlink" title="Goland中配置golang"></a>Goland中配置golang</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Golang </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vs code </tag>
+            
+            <tag> Golang </tag>
+            
+            <tag> Goland </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用boto3向AWS S3上传文件</title>
       <link href="/IBUER35/"/>
       <url>/IBUER35/</url>
@@ -12,8 +41,6 @@
       
       
       <categories>
-          
-          <category> AWS </category>
           
           <category> Python </category>
           
@@ -44,8 +71,6 @@
       
       <categories>
           
-          <category> 数据库 </category>
-          
           <category> Python </category>
           
       </categories>
@@ -53,7 +78,7 @@
       
         <tags>
             
-            <tag> Database </tag>
+            <tag> Databas </tag>
             
             <tag> Redis </tag>
             
@@ -84,11 +109,11 @@
       
         <tags>
             
-            <tag> Database </tag>
-            
             <tag> Redis </tag>
             
             <tag> 中间件 </tag>
+            
+            <tag> Database </tag>
             
         </tags>
       
