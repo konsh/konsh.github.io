@@ -35,9 +35,10 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/konsh || Github
+  # fab fa-github: https://github.com/konsh || Github
   fas fa-envelope: mailto:1161338518@qq.com || Email
-  fa-brands fa-weixin: /images/avatar1.jpg || 微信公众号
+  fa-brands fa-weixin: https://cdn.jsdelivr.net/gh/konsh/CDN/img/ESFS7D.png || 微信公众号
+  iconfont icon-RSS: /rss2.xml || RSS
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -623,7 +624,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   archives: true
   card_author:
     enable: true
@@ -830,7 +831,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_3444467_3kjnqawpulp.css">
   bottom:
     # - <script src="xxxx"></script>
 

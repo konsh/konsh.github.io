@@ -5,7 +5,7 @@ tags:
     - Database
     - Redis
     - 中间件
-category: 数据库
+category: Database
 keywords: Database, Redis, 中间件
 description: Redis的三种集群模式介绍
 cover: https://cdn.jsdelivr.net/gh/konsh/CDN/img/ESFS7D.png

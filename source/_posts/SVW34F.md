@@ -8,7 +8,7 @@ tags:
 category: Golang
 keywords: Golang, Goland, vs code
 description: golang在IDE中自动导包配置
-cover: https://cdn.jsdelivr.net/gh/konsh/CDN/img/ESFS7D.png
+cover: https://cdn.jsdelivr.net/gh/konsh/CDN/img/SVW34F.png
 ---
 
 # 前言
@@ -23,7 +23,7 @@ vs code是一款由微软开发的跨平台的免费编辑器。该软件支持�
 ## 安装go插件和工具包
 ### 扩展工具中安装GO插件
 
-![vscode安装Go插件](/img/vscode-go插件.png)
+![vscode安装Go插件](https://cdn.jsdelivr.net/gh/konsh/CDN/img/vscode-go插件.png)
 
 ### 安装GO工具包
 打开控制面板输入```go:install/update tools```，勾选全部插件进行安装。
@@ -35,15 +35,25 @@ vs code是一款由微软开发的跨平台的免费编辑器。该软件支持�
     >>
     >> 3. win系统可使用快捷键ctrl+shift+P
 
-![vscode-go工具包安装1](/img/vscode-go工具包安装1.png)
+![vscode-go工具包安装1](https://cdn.jsdelivr.net/gh/konsh/CDN/img/vscode-go工具包安装1.png)
 
-![vscode-go工具包安装2](/img/vscode-go工具包安装2.png)
+![vscode-go工具包安装2](https://cdn.jsdelivr.net/gh/konsh/CDN/img/vscode-go工具包安装2.png)
 
 ### 更新配置文件
 在 Preferences/首选项 -> Setting/设置 然后输入 go，然后选择 setting.json，填入你想要修改的配置
 ```
-
+    "go.autocompleteUnimportedPackages": true,
+    "gopls": {
+        "experimentalWorkspaceModule": true
+    },
+    "go.inferGopath": true,
+    "go.toolsManagement.autoUpdate": true,
+    "go.gotoSymbol.includeImports": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
 ```
 
-
 # Goland中配置golang
+
+Preferences -> Go -> Go Modules配置参数
+![Goland setting](https://cdn.jsdelivr.net/gh/konsh/CDN/img/goland-1.png)
