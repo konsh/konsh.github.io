@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ikonsh.com/GY3HGT/</loc>
+    <loc>https://www.ikonsh.com/posts/SVW34F.html</loc>
+    
+    <lastmod>2022-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ikonsh.com/posts/ESFS7D.html</loc>
+    
+    <lastmod>2022-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ikonsh.com/posts/GY3HGT.html</loc>
     
     <lastmod>2022-05-30</lastmod>
     
@@ -11,16 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.ikonsh.com/SVW34F/</loc>
-    
-    <lastmod>2022-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ikonsh.com/IBUER35/</loc>
+    <loc>https://www.ikonsh.com/posts/IBUER35.html</loc>
     
     <lastmod>2022-05-11</lastmod>
     
@@ -29,18 +38,9 @@
   </url>
   
   <url>
-    <loc>https://www.ikonsh.com/AHUG74/</loc>
+    <loc>https://www.ikonsh.com/posts/AHUG74.html</loc>
     
     <lastmod>2022-05-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ikonsh.com/ESFS7D/</loc>
-    
-    <lastmod>2022-05-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://www.ikonsh.com/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,84 +84,84 @@
   
   <url>
     <loc>https://www.ikonsh.com/tags/Databas/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/Redis/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/Python/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/Database/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/hexo/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/AWS/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/vs-code/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/Golang/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/tags/Goland/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -170,28 +170,28 @@
   
   <url>
     <loc>https://www.ikonsh.com/categories/Python/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ikonsh.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <loc>https://www.ikonsh.com/categories/Database/</loc>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/categories/hexo/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ikonsh.com/categories/Golang/</loc>
-    <lastmod>2022-05-30</lastmod>
+    <lastmod>2022-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
