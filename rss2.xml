@@ -15,8 +15,33 @@
     <atom:link href="https://www.ikonsh.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Thu, 02 Jun 2022 09:24:19 GMT</pubDate>
+    <pubDate>Fri, 17 Jun 2022 09:41:58 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>操作系统查看端口占用及结束进程方法</title>
+      <link>https://www.ikonsh.com/posts/EWTVRW.html</link>
+      <guid>https://www.ikonsh.com/posts/EWTVRW.html</guid>
+      <pubDate>Fri, 17 Jun 2022 07:30:11 GMT</pubDate>
+      
+      <description>Windows/Mac/Linux操作系统查看端口占用及结束进程方法</description>
+      
+      
+      
+      
+      <category domain="https://www.ikonsh.com/categories/system/">system</category>
+      
+      
+      <category domain="https://www.ikonsh.com/tags/MAC/">MAC</category>
+      
+      <category domain="https://www.ikonsh.com/tags/Linux/">Linux</category>
+      
+      <category domain="https://www.ikonsh.com/tags/Windows/">Windows</category>
+      
+      
+      <comments>https://www.ikonsh.com/posts/EWTVRW.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Golang自动导包配置</title>
