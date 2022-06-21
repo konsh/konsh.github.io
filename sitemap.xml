@@ -127,6 +127,20 @@
   </url>
   
   <url>
+    <loc>https://www.ikonsh.com/tags/hexo/</loc>
+    <lastmod>2022-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ikonsh.com/tags/%E5%BB%BA%E7%AB%99/</loc>
+    <lastmod>2022-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ikonsh.com/tags/MAC/</loc>
     <lastmod>2022-06-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -156,20 +170,6 @@
   
   <url>
     <loc>https://www.ikonsh.com/tags/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</loc>
-    <lastmod>2022-06-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ikonsh.com/tags/hexo/</loc>
-    <lastmod>2022-06-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ikonsh.com/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2022-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -213,14 +213,14 @@
   </url>
   
   <url>
-    <loc>https://www.ikonsh.com/categories/system/</loc>
+    <loc>https://www.ikonsh.com/categories/hexo/</loc>
     <lastmod>2022-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ikonsh.com/categories/hexo/</loc>
+    <loc>https://www.ikonsh.com/categories/system/</loc>
     <lastmod>2022-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
