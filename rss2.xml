@@ -15,7 +15,7 @@
     <atom:link href="https://www.ikonsh.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Tue, 05 Jul 2022 08:41:32 GMT</pubDate>
+    <pubDate>Wed, 06 Jul 2022 06:48:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -29,7 +29,7 @@
       
       
       
-      <category domain="https://www.ikonsh.com/categories/system/">system</category>
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
       
       
       <category domain="https://www.ikonsh.com/tags/MAC/">MAC</category>
@@ -50,7 +50,7 @@
       
       
       
-      <category domain="https://www.ikonsh.com/categories/system/">system</category>
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
       
       
       <category domain="https://www.ikonsh.com/tags/MAC/">MAC</category>
@@ -75,7 +75,7 @@
       
       
       
-      <category domain="https://www.ikonsh.com/categories/Golang/">Golang</category>
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
       
       
       <category domain="https://www.ikonsh.com/tags/vs-code/">vs code</category>
@@ -100,7 +100,7 @@
       
       
       
-      <category domain="https://www.ikonsh.com/categories/Python/">Python</category>
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
       
       
       <category domain="https://www.ikonsh.com/tags/Python/">Python</category>
@@ -125,7 +125,7 @@
       
       
       
-      <category domain="https://www.ikonsh.com/categories/Python/">Python</category>
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
       
       
       <category domain="https://www.ikonsh.com/tags/Databas/">Databas</category>
@@ -152,7 +152,7 @@
       
       
       
-      <category domain="https://www.ikonsh.com/categories/Database/">Database</category>
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
       
       
       <category domain="https://www.ikonsh.com/tags/Redis/">Redis</category>
@@ -177,7 +177,7 @@
       
       
       
-      <category domain="https://www.ikonsh.com/categories/hexo/">hexo</category>
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
       
       
       <category domain="https://www.ikonsh.com/tags/hexo/">hexo</category>
