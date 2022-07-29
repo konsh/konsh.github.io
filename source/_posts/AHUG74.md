@@ -6,7 +6,7 @@ tags:
     - Redis
     - 中间件
     - Python
-category: Python
+category: 开发
 keywords: Database, Redis, 中间件, Python
 description: Python连接Redis集群的方式
 cover: https://cdn.jsdelivr.net/gh/konsh/CDN/img/ESFS7D.png

@@ -5,7 +5,7 @@ tags:
     - AWS
     - Python
     - 上传文件
-category: Python
+category: 开发
 keywords: AWS, 上传文件, boto3, Python
 description: 使用AWS开发工具包boto3上传文件到S3上。
 cover: https://cdn.jsdelivr.net/gh/konsh/CDN/img/IBUER35.jpeg

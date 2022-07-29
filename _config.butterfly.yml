@@ -155,8 +155,8 @@ post_meta:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
-  post_wordcount: true
+  enable: true # true or false
+  post_wordcount: false
   min2read: true
   total_wordcount: true
 

@@ -1,9 +1,9 @@
 ---
 title: hexo操作
 date: 2021-06-24 16:04:49
-category: hexo
+category: 建站
 tags: [hexo, 建站]
-keywords: hexo, 建站
+keywords: hexo,建站,常用hexo命令操作
 description: 常用hexo命令操作
 cover: https://cdn.jsdelivr.net/gh/konsh/CDN/img/GY3HGT.png
 ---

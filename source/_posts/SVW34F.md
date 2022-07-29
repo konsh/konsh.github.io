@@ -2,10 +2,10 @@
 title: Golang自动导包配置
 date: 2022-05-11 14:43:50
 tags:
-- vs code
-- Golang
-- Goland
-category: Golang
+    - vs code
+    - Golang
+    - Goland
+category: 开发
 keywords: Golang, Goland, vs code
 description: golang在IDE中自动导包配置
 cover: https://cdn.jsdelivr.net/gh/konsh/CDN/img/SVW34F.png
@@ -28,12 +28,9 @@ vs code是一款由微软开发的跨平台的免费编辑器。该软件支持�
 ### 安装GO工具包
 打开控制面板输入```go:install/update tools```，勾选全部插件进行安装。
  > 打开控制面板的方法
-    >
-    >> 1. 查看 - 命令面板
-    >>
-    >> 2. mac系统可使用快捷键command+shift+P
-    >>
-    >> 3. win系统可使用快捷键ctrl+shift+P
+    > 1. 查看 - 命令面板
+    > 2. mac系统可使用快捷键command+shift+P
+    > 3. win系统可使用快捷键ctrl+shift+P
 
 ![vscode-go工具包安装1](https://cdn.jsdelivr.net/gh/konsh/CDN/img/vscode-go工具包安装1.png)
 
