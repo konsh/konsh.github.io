@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Python进程、线程、协程的区别</title>
+      <link href="//posts/ASDHGW.html"/>
+      <url>//posts/ASDHGW.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、进程、线程、协程定义"><a href="#一、进程、线程、协程定义" class="headerlink" title="一、进程、线程、协程定义"></a>一、进程、线程、协程定义</h1><h2 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h2><p>进程是具有一定独立功能的程序关于某个数据集上的一次运行活动，是有系统进行资源分配和调度的一个独立单位。每个进程都有独立的内存空间，不同进程减通过进程间通信来完成通信。开销（栈、寄存器、虚拟内存、文件句柄等）大，但相对稳定安全。</p><h2 id="线程"><a href="#线程" class="headerlink" title="线程"></a>线程</h2><p>线程是进程的一个执行单元，是CPU调度和分派的基本单位，是比进程更小的能独立运行的基本单位。一个进程可以有多个线程，这些线程共享这个进程的全部资源。线程间通信主要通过共享内存。但是由于GIL存在，一个单核CPU在时间点上只能有一个线程执行。</p><h2 id="协程"><a href="#协程" class="headerlink" title="协程"></a>协程</h2><p>协程，又称微线程，纤程。Coroutine<br>协程是Python中另一种实现多任务的方式，比线程占用更少的资源。协程自带CPU上下文，可以在协程之间切换，只要这个过程中保存或恢复CPU上下文那么程序还是可以运行的。<br>在一个线程中的某个函数，可以在任何地方保存当前函数的一些临时变量等信息，然后切换到另一个函数中执行，注意不是通过调用函数的方式做到的，并且切换的次数以及什么时候再切换到原来的函数都是由开发者自己决定。</p><h1 id="二、进程、线程、协程区别"><a href="#二、进程、线程、协程区别" class="headerlink" title="二、进程、线程、协程区别"></a>二、进程、线程、协程区别</h1><ul><li><p>进程与线程</p><ul><li>地址空间：县城是进程内的一个执行单元，进程内至少有一个线程，每个线程共享该进程的地址空间，而进程有自己独立的地址空间。</li><li>资源拥有：进程是自愿分配和拥有的单位，同一个进程内的线程共享进程的资源。</li><li>线程是CPU调度的基本单位，但进程不是。</li><li>二者均可并发执行</li></ul></li><li><p>协程与线程</p><ul><li>一个线程可以有多个协程，一个进程也可以单独拥有多个协程，这样在Python中就可以使用多核CPU。</li><li>线程进程都是同步机制，而协程则是异步。</li><li>协程能保留上一次调用时的状态，每次过程重入时，就相当于进入上一次调用的状态。</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>免费常用IP归属地查询接口</title>
       <link href="//posts/WERGAS.html"/>
       <url>//posts/WERGAS.html</url>
@@ -20,7 +45,11 @@
       
         <tags>
             
+            <tag> 中间件 </tag>
+            
             <tag> Python </tag>
+            
+            <tag> 工具 </tag>
             
         </tags>
       
