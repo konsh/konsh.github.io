@@ -15,8 +15,29 @@
     <atom:link href="https://www.ikonsh.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Fri, 12 Aug 2022 09:40:50 GMT</pubDate>
+    <pubDate>Tue, 06 Sep 2022 08:52:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Fastapi中使用异步非阻塞</title>
+      <link>https://www.ikonsh.com/posts/YWGUF.html</link>
+      <guid>https://www.ikonsh.com/posts/YWGUF.html</guid>
+      <pubDate>Tue, 06 Sep 2022 03:37:23 GMT</pubDate>
+      
+      <description>fastapi中使用异步非阻塞</description>
+      
+      
+      
+      
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      <category domain="https://www.ikonsh.com/tags/Python/">Python</category>
+      
+      
+      <comments>https://www.ikonsh.com/posts/YWGUF.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Python进程、线程、协程的区别</title>
