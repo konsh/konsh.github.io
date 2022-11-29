@@ -15,8 +15,29 @@
     <atom:link href="https://www.ikonsh.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Tue, 06 Sep 2022 08:52:46 GMT</pubDate>
+    <pubDate>Tue, 29 Nov 2022 10:31:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Fastapi中使用后台任务</title>
+      <link>https://www.ikonsh.com/posts/KHWV2F.html</link>
+      <guid>https://www.ikonsh.com/posts/KHWV2F.html</guid>
+      <pubDate>Tue, 29 Nov 2022 09:14:40 GMT</pubDate>
+      
+      <description>Fastapi中使用后台任务</description>
+      
+      
+      
+      
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      <category domain="https://www.ikonsh.com/tags/Python/">Python</category>
+      
+      
+      <comments>https://www.ikonsh.com/posts/KHWV2F.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Fastapi中使用异步非阻塞</title>
