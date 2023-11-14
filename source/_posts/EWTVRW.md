@@ -14,7 +14,7 @@ description: Windows/Mac/Linux操作系统查看端口占用及结束进程方�
 # Mac/Linux环境
 ```sh
 # 查看端口4000的占用情况
-sudo losf -i :4000
+sudo lsof -i :4000
 
 # 根据占用的PID来结束进程
 sudo kill -9 1375
