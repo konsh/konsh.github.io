@@ -15,18 +15,26 @@
     <atom:link href="https://www.ikonsh.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Tue, 06 Dec 2022 10:42:51 GMT</pubDate>
+    <pubDate>Tue, 14 Nov 2023 08:14:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>Go语言</title>
+      <title>Mac本地安装MySQL</title>
       <link>https://www.ikonsh.com/posts/BGF72D.html</link>
       <guid>https://www.ikonsh.com/posts/BGF72D.html</guid>
       <pubDate>Tue, 06 Dec 2022 03:46:45 GMT</pubDate>
       
+      <description>本地搭建一个MySQL数据库。</description>
       
       
       
+      
+      <category domain="https://www.ikonsh.com/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      <category domain="https://www.ikonsh.com/tags/MacOS/">MacOS</category>
+      
+      <category domain="https://www.ikonsh.com/tags/MySQL/">MySQL</category>
       
       
       <comments>https://www.ikonsh.com/posts/BGF72D.html#disqus_thread</comments>
