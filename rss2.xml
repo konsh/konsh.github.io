@@ -15,8 +15,34 @@
     <atom:link href="https://www.ikonsh.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>懒惰是第一生产力</description>
-    <pubDate>Tue, 14 Nov 2023 08:14:08 GMT</pubDate>
+    <pubDate>Wed, 22 Nov 2023 08:13:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Python爬虫练习-etree.HTML解析数据异常</title>
+      <link>https://www.ikonsh.com/posts/GW24HG.html</link>
+      <guid>https://www.ikonsh.com/posts/GW24HG.html</guid>
+      <pubDate>Tue, 21 Nov 2023 09:26:40 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;这几天帮朋友写一个爬虫。可能因为太久没写爬虫了，总是遇到一些奇奇怪怪的问题，也可能是因为时间太久以至于忘了一些原理或者机制了。所以记录一下，防止以后遇到了又不知道是什么原因导致的。&lt;/p&gt;
+&lt;h2 id=&quot;描述&quot;&gt;&lt;a href=&quot;#描述&quot;</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://www.ikonsh.com/tags/Python-lxml-xpath-%E7%88%AC%E8%99%AB/">Python, lxml, xpath, 爬虫</category>
+      
+      
+      <comments>https://www.ikonsh.com/posts/GW24HG.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Mac本地安装MySQL</title>
