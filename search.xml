@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>引用JSEncrypt模块提示 ReferenceError： window is not defined。解决方案</title>
+      <link href="//posts/BC35GI.html"/>
+      <url>//posts/BC35GI.html</url>
+      
+        <content type="html"><![CDATA[<p>在使用jsencrypto时，在Pycharm中执行代码提示<code>window is not defined</code>。<br><img src="/img/jsencrypto-error.png" alt="jsencrypto error message"><br>问题原因：在IDE中是没有Window对象的，所以在执行代码的过程中会出现找不到对象的异常报错。</p><p>网上找了下解决方案，记录一下：</p><h2 id="方案一："><a href="#方案一：" class="headerlink" title="方案一："></a>方案一：</h2><pre><code>问了下chatgpt，chatgpt建议我安装使用一个叫jsdom的包。在JS文件中使用jsdom来模拟Window对象。ok，来试试。<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm install jsdom</span><br></pre></td></tr></table></figure>在JS文件引用它<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> jsdom = <span class="built_in">require</span>(<span class="string">&#x27;jsdom&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> &#123; JSDOM &#125; = jsdom;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建一个模拟的 window 对象</span></span><br><span class="line"><span class="keyword">const</span> &#123; <span class="built_in">window</span> &#125; = <span class="keyword">new</span> JSDOM();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 设置全局的 window 对象</span></span><br><span class="line"><span class="built_in">global</span>.window = <span class="built_in">window</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 在这里写下您的 JavaScript 代码，可以使用 window 对象了</span></span><br><span class="line"><span class="comment">// ...</span></span><br></pre></td></tr></table></figure>执行后错误依旧，看了下我的报错位置，是在jsencrypto包的内部报错而不是在我创建的JS文件里。那么这个方案也就pass。</code></pre><h2 id="方案二"><a href="#方案二" class="headerlink" title="方案二"></a>方案二</h2><pre><code>在源码中添加`window = this;`，这里有两种添加方式，①是在包的源文件中添加；②是在我的JS代码引用jsencrypto之前加上这句。因为我的程序后续还要部署到服务器上，所以①这个方案不就考虑了。那么直接试试②<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">window</span> = <span class="built_in">this</span>;</span><br><span class="line"><span class="keyword">const</span> jsencrypt = <span class="built_in">require</span>(<span class="string">&#x27;jsencrypt&#x27;</span>) </span><br><span class="line"></span><br></pre></td></tr></table></figure></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JSEncrypt </tag>
+            
+            <tag> Pycharm </tag>
+            
+            <tag> 爬虫 </tag>
+            
+            <tag> JS逆向 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python爬虫练习-etree.HTML解析数据异常</title>
       <link href="//posts/GW24HG.html"/>
       <url>//posts/GW24HG.html</url>
@@ -141,9 +172,9 @@
       
         <tags>
             
-            <tag> 中间件 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 中间件 </tag>
             
             <tag> 工具 </tag>
             
@@ -282,13 +313,13 @@
       
         <tags>
             
+            <tag> Python </tag>
+            
             <tag> Databas </tag>
             
             <tag> Redis </tag>
             
             <tag> 中间件 </tag>
-            
-            <tag> Python </tag>
             
         </tags>
       
